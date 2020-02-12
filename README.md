@@ -11,7 +11,7 @@ repo init -u https://github.com/GeekTeam-InfinityOS/manifest -b infinity-10
 repo sync
 ```
 
-### Build ###
+### Build | 编译 ###
 
 ```bash
 
