@@ -1,6 +1,6 @@
 # Infinity OS #
 
-### Sync ###
+### Sync | 同步 ###
 
 ```bash
 
