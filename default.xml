@@ -785,5 +785,6 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/infinity.xml" />
+  <include name="snippets/pixel.xml" />
 
 </manifest>
