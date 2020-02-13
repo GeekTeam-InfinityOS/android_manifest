@@ -22,4 +22,6 @@
           fetch="https://gitlab.com/PixelExperience"
           revision="refs/heads/ten" />
 
+  <project path="vendor/gapps" name="vendor_gapps" groups="vendor" remote="pixel" />
+
 </manifest>
