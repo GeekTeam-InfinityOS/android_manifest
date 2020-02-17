@@ -8,7 +8,7 @@
 repo init -u https://github.com/GeekTeam-InfinityOS/manifest -b infinity-10
 
 # Sync
-repo sync
+repo sync -f --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
 ```
 
 ### Build | 编译 ###
