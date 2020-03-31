@@ -21,6 +21,10 @@
   <remote name="InfinityOS"
           fetch="https://github.com/GeekTeam-InfinityOS"
           revision="refs/heads/infinity-10" />
+  
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="InfinityOS" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="InfinityOS" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="InfinityOS" />
 
   <project path="build/make" name="android_build" groups="pdk" remote="InfinityOS" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -40,4 +44,7 @@
   <project path="vendor/infinity" name="android_vendor_infinity" groups="vendor" remote="InfinityOS" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" groups="vendor" remote="InfinityOS" />
 
+    <!-- External repos -->
+  <project path="external/libhevc" name="external_libhevc" remote="InfinityOS" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="InfinityOS" />
 </manifest>
